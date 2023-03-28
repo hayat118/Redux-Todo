@@ -1,7 +1,7 @@
-import { combineReducers } from "react-redux";
-import { operationsReducer } from "./todoapp/reducers/operations";
+import { combineReducers } from "redux";
+import { operations } from "./todoapp/reducers/operations";
 
 export const rootReducers = combineReducers({
-  operationsReducer,
+  operations,
   // more reducer can be added according to requirement
 });
